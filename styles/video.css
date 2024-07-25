@@ -1,0 +1,78 @@
+
+
+.thumbnail{
+width: 100%;
+}
+
+.video-title {
+margin-bottom: 10px;
+font-size: 15px;
+
+font-weight: 500;
+line-height: 20px;
+width: 100%;
+
+}
+
+.video-author{
+font-size: 13px;
+margin-bottom: 4px;
+color:#606060 ;
+}
+
+.video-stats{
+font-size: 13px;
+color: #606060;
+}
+
+
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.video-info-grid{
+     display: flex;
+     flex-direction: horizontal;
+}
+
+
+.profile-picture{
+width: 40px;
+border-radius:25px;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 5px;
+}
+
+.thumbnail-row{
+margin-bottom: 8px;
+position:relative;
+}
+
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 40px;
+
+
+}
+
+.video-time{
+     background-color: black;
+     color: white;
+     position: absolute;
+     bottom:8px;
+     right: 5px;
+     font-size: 12px;
+     font-weight: 500;
+     padding-left:4px ;
+     padding-right: 4px;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     border-radius: 2px;
+     font-family: Roboto, Arial;
+     
+}
